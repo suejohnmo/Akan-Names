@@ -5,3 +5,18 @@
 .top-form {
   margin-top: 30px;
 }
+
+h2 {
+  font-family: tangerine;
+  font-weight: bold;
+  font-size: 32px;
+  color: "black";
+}
+}
+
+.labels {
+  font-family: tangerine;
+  font-weight: dark;
+  font-size: 32px;
+  color: "black";
+}
