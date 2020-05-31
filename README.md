@@ -7,7 +7,9 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 
 # Author(s) information.
 
-Susan Mwaura- Student with Moringa school
+Susan Mwaura- Student with Moringa school.
+Live site is running on  https://suejohnmo.github.io/Akan-Names/
+Link to github https://github.com/suejohnmo/Akan-Names
 
 # Setup instructions - includes any scripts that need to be run if necessary.
 
@@ -34,6 +36,7 @@ Akan name  -The corresponding Akan name for the user  based on the gender ``eg A
 * Bootstrap
 
 # Contact information.
+For any inmprovements on this site, contact me on suejohnmo@gmail.com thank you.
 
 #License and Copyright information.
 
