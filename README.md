@@ -13,8 +13,25 @@ Susan Mwaura- Student with Moringa school
 
 
 # Behaviour Driven Development (BDD).
+Century - The century that the user was born in, ``eg 19th century``
+Year -The year of the century ``eg 80 year``
+Monnth- The month of the year ``eg 1 month``     
+Date-The day of the month ``eg 22 day``
+Gender- Male or female
+
+
+Outputs
+
+Day of birth -The day of the week that the user was born ``eg Tuesday``
+Akan name  -The corresponding Akan name for the user  based on the gender ``eg Abenaa`` (Akan female name born on Tuesday``)    
+
+
 
 # Technologies used.
+* Html5
+* Css
+* Javascript
+* Bootstrap
 
 # Contact information.
 
