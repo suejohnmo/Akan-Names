@@ -1,7 +1,3 @@
-// function submitform()
-// {
-//     document.forms["myform"].submit();
-// }
 var dayofWeekName =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var dayofWeek;
 var genderMale =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];

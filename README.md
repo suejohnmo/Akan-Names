@@ -15,12 +15,9 @@ Link to github https://github.com/suejohnmo/Akan-Names
 
 
 # Behaviour Driven Development (BDD).
-Century - The century that the user was born in, ``eg 19th century``
-Year -The year of the century ``eg 80 year``
-Monnth- The month of the year ``eg 1 month``     
-Date-The day of the month ``eg 22 day``
-Gender- Male or female
 
+Date-The date of birth(bday) i.e. dd/mm/yyyy
+Gender- Male or female
 
 Outputs
 
