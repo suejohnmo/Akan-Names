@@ -52,10 +52,16 @@
   <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label><br>
 </form>
-
+<div class="form-group mb15">
+					<label class="label">Birthday</label>
+					<div class="input-group mb15">
+						<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+						<input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
+				 </div>
+			</div>
 	<!-- <div class="col-md-8 right">
 		<div class="panel col-md-7 offset-md-6"> -->
-						<div class="form-group top-form">
+						<!-- <div class="form-group top-form">
 							<label for="century" class="labels">Century</label>
 							<input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
 						</div>
@@ -70,9 +76,9 @@
 						<div class="form-group">
 							<label for="monthDay" class="labels">Day of month</label>
 							<input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="31">
-						</div>
-						<a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Calculate Birthday</button></a>
-						<h1 id="result"></h1>
+						</div> -->
+						<!-- <button type="submit" class="btn btn-primary" onclick="getName();">Submit</button> -->
+						<a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="getName();">Submit</button></a>
 
 	<!-- <div class="w3-container w3-cell">
   <label class="label">Birthday</label>
@@ -82,16 +88,10 @@
 </div> -->
 
 
-
-
-
-
-
-
-<script src="js/jquery-3.4.1.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scripts.js"></script>
+  <script src="js/jquery-3.4.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
 
 
 	  <!-- <div id="footer">
@@ -100,3 +100,4 @@
 		</div>
 	</div> -->
 	</body>
+	</html>
