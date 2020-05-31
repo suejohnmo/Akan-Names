@@ -1,7 +1,7 @@
-function submitform()
-{
-    document.forms["myform"].submit();
-}
+// function submitform()
+// {
+//     document.forms["myform"].submit();
+// }
 var dayofWeekName =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var dayofWeek;
 var genderMale =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
@@ -35,37 +35,23 @@ function getDayofWeek(dateofBirth){
 
   return dayofWeek;
 }
-function getDayofWeek(dateofBirth){
-	var bornday= new Date(dateofBirth);
-	var day = bornday.getDay();
-	if (day == 0) {
-		dayofWeek = dayofWeekName[0];
-	}
-	else if (day==1) {
-		dayofWeek =dayofWeekName[1];
-	}
-	else if (day==2) {
-		dayofWeek =dayofWeekName[2];
-	}
-	else if (day==3) {
-		dayofWeek =dayofWeekName[3];
-	}
-	else if (day==4) {
-		dayofWeek =dayofWeekName[4];
-	}
-	else if (day==5) {
-		dayofWeek =dayofWeekName[5];
-	}
-	else if (day==6) {
-		dayofWeek =dayofWeekName[6];
-	}
 
-  return dayofWeek;
-}
 function getName() {
-	var gender="female";
-	var dateofBirth ="Dec 9, 1991";
+
+	//var gender="male";
+	//var dateofBirth="1991-12-09";
+	//var dateofBirth = document.getElementsByName('bday');
+	//var gender= document.getElementsByName("gender");
+	//var gender= document.getElementById("gender").value;
+
+	var gender = document.querySelector('input[name="gender"]:checked').value;
+	var dateofBirth = document.getElementById("bday").value;
+
+	console.log(dateofBirth);
+	console.log(gender);
+
 	var dayOftheWeek= getDayofWeek(dateofBirth);
+
 	if (gender =="female" && dayOftheWeek == dayofWeekName[0]) {
 		akanName = genderFemale[0];
 	}
@@ -108,7 +94,9 @@ function getName() {
 	else if (gender == "male" && dayOftheWeek == dayofWeekName[6]) {
 		akanName = genderMale[6];
 	}
-	return "You were born on "  + dayOftheWeek +  " Your Akan Name is "  + akanName;
+	alert("You were born on " + dayOftheWeek + " Your Akan Name is " + akanName);
+
+	//var results = "You were born on " + dayOftheWeek + " Your Akan Name is " + akanName;
+	//document.getElementById('results').innerHTML= results;
 
 }
-alert(getName());
