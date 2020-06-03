@@ -1,5 +1,5 @@
 # Project name.
-Akan names.
+What is your Akan name?.
 
 # Project description.
 This project is a web application that takes a user's birthday and calculates the day of the week they were born and depending on their gender outputs their Akan name.
@@ -12,7 +12,10 @@ Live site is running on  https://suejohnmo.github.io/Akan-Names/
 Link to github https://github.com/suejohnmo/Akan-Names
 
 # Setup instructions - includes any scripts that need to be run if necessary.
-
+Install a terminal
+install Atom or visual studio
+Create an account on github.
+clone project from https://github.com/suejohnmo/Akan-Names or Fork the Project.
 
 # Behaviour Driven Development (BDD).
 
@@ -24,16 +27,14 @@ Outputs
 Day of birth -The day of the week that the user was born ``eg Tuesday``
 Akan name  -The corresponding Akan name for the user  based on the gender ``eg Abenaa`` (Akan female name born on Tuesday``)    
 
-
-
 # Technologies used.
 * Html5
-* Css
-* Javascript
+* CSS
+* JavaScript
 * Bootstrap
 
 # Contact information.
-For any inmprovements on this site, contact me on suejohnmo@gmail.com thank you.
+For any improvements on this site, contact me on suejohnmo@gmail.com thank you.
 
 #License and Copyright information.
 
