@@ -12,10 +12,10 @@ Live site is running on  https://suejohnmo.github.io/Akan-Names/
 Link to github https://github.com/suejohnmo/Akan-Names
 
 # Setup instructions - includes any scripts that need to be run if necessary.
-Install a terminal
-install Atom or visual studio
-Create an account on github.
-clone project from https://github.com/suejohnmo/Akan-Names or Fork the Project.
+*Install a terminal.
+*install Atom or visual studio.
+*Create an account on github.
+*clone project from https://github.com/suejohnmo/Akan-Names or Fork the Project.
 
 # Behaviour Driven Development (BDD).
 
