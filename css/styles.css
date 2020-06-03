@@ -6,9 +6,9 @@
   margin-top: 30px;
 }
 
-h2 {
+.h2 {
   font-family: tangerine;
-  font-weight: bold;
+  font-weight: dark;
   font-size: 32px;
   color: "black";
 }
